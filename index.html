@@ -6,18 +6,26 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1>Blasting Off With Bootstrap</h1>			
-			</div>			
+	<div class='navbar navbar-default navbar-static-top'>
+		<div class="container">
+			<a href="/" class="navbar-brand">
+				Blasting Off With Bootstrap
+			</a>
+			<ul class="nav navbar-nav navbar-right">
+			    <li><a href="tickets.html">Tickets</a></li>
+			    <li><a href="stations.html">Stations</a></li>
+			    <li><a href="about.html">About</a></li>		    
+			</ul>
 		</div>
-		<div class="row">
+	</div>
+
+	<div class="container">
+		<div class="row well well-lg">
 			<div class='col-md-6'>
 				<h2>The Fastest Way To Space</h2>
 				<p class='lead'>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
-				<button type="button">Take the Tour</button>
-				<button type="button">Book Tickets Now</button>
+				<button type="button" class="btn btn-lg btn-success">Take the Tour</button>
+				<button type="button" class="btn btn-lg btn-danger">Book Tickets Now</button>
 			</div>
 			<div class='col-md-6 hidden-sm hidden-xs'>
 				<img src="images/blast.jpg" alt="Blasting Off">
@@ -46,7 +54,7 @@
 		</div>
 	</div>
 
-	<div class="">
+	<div>
 		<h4>Links</h4>
 		<ul class="list-unstyled">
 		    <li><a href="index.html">Home</a></li>
